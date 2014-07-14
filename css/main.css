@@ -1,0 +1,23 @@
+body {
+	position: relative;
+	display: block;
+}
+
+#input {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#input-text {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+#input-add {
+	position: relative;
+	display: block;
+	float: right;
+}
