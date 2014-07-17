@@ -2,12 +2,11 @@ $(document).ready(function() {
 
 	//add list item using 'got it' button
 	$('#input-add').on('click', 'button', function() {
-		//alert('add button');
-		var inputitem = $('#input-text').find('#list-input').val(); //declares input field item
-		var listitem = $('<li>'+inputitem+'</li>'); //adds li to item
-		$('.list-items').append(listitem); //adds item to the list
-		$('#list-input').val(''); //clears input field
-		//add .edit-buttons
+		var inputitem = $('#input-text').find('#list-input').val(); 
+		var listitem = $('<li>'+inputitem+'</li>'); 
+		$('.list-items').append(listitem); 
+		$('#list-input').val(''); 
+
 	});
 
 	//add list item using 'enter' key

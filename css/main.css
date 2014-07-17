@@ -4,10 +4,6 @@ body {
 	margin: 0 auto;
 }
 
-a:active {
-	
-}
-
 #header {
 	position: relative;
 	display: block;
@@ -65,8 +61,6 @@ a:active {
 #notepad {
 	position: relative;
 	display: block;
-	
-/*	margin-left: 50px; */
 	width: 500px;
 	height: 600px;
 	border: 1px solid transparent;
@@ -89,48 +83,3 @@ a:active {
 	font-family: cursive;
 	font-size: 1.8em;
 }
-
-.edit-buttons {
-	position: relative;
-	display: none;
-	float: right;
-	width: 170px;
-	height: 30px;
-	margin-right: 50px;
-	margin-top: 100px;
-	border: 1px solid transparent;
-}
-
-.delete {
-	position: relative;
-	display: inline-block;
-	width: 30px;
-	height: 25px;
-	border: 1px solid transparent;
-	margin-right: 10px;
-}
-
-.gotit {
-	position: relative;
-	display: inline-block;
-	width: 70px;
-	height: 25px;
-	border: 1px solid transparent;
-	margin-right: 5px;
-}
-
-/* BUTTONS */
-/*#button-delete {
-	width: 30px;
-	height: 25px;
-	background-image: url(../images/trashcan.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	
-}
-
-#button-gotit {
-	width: 70px;
-	height: 25px;
-
-}*/
